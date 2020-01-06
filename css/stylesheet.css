@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.height-attribute{
+    height: 200px;
+}
+.slide-holder{
+    width: 100%;
+     position: absolute;
+    top:0;
+    z-index: -1;
+}
+.main-wrapper{
+    width: 100%;
+    height: 85vh;
+     position: relative;
+}
+.carousel{
+    height: 85vh!important;
+}
+.cc1{
+    background-image: url("../images/pizza.jpg");
+}
+.cc2{
+    background-image: url("../images/hotel.jpg");
+}
+.cc3{
+    background-image: url("../images/room.jpeg");
+}
+.cc4{
+    background-image: url("../images/recepie4.jpg");
+}
+.cc1,.cc2,.cc3,.cc4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gal-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gal-wrap img{
+    margin: 10px;
+}
+.tab-pane-holder{
+    width: 100%;
+    background: #9e9e9e;
+}
+.tabs{
+    background: transparent;
+    text-align: justify;
+}
+.fixer{
+    position: fixed;
+    bottom: 15rem;
+}
+.menu-holder{
+    width: 80%;
+    margin: 0 auto;
+    z-index: 9999;
+}
+.slider-holder h2{
+    line-height: 7rem!important;
+    height: 85vh;
+}
+nav{
+    background: transparent;
+}
+
+.block-wrapper{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+@media (max-width: 768px){
+    .block-wrapper .material-icons{
+        font-size: 3rem;
+    }
+    .block-wrapper .material-icons{
+        font-size: 6rem;
+    }
+    .block-wrapper h6{
+        font-size: 1.3rem;
+    }
+    .block-wrapper .row .col{
+        float: none;
+        margin-top: 2rem;
+        margin-bottom: 1px;
+        padding-bottom: 1rem;
+        box-sizing: border-box;
+    }
+    .block-wrapper .row .col.m3{
+        width: 100%;
+    }
+}
